@@ -1,0 +1,40 @@
+#roar-console
+{
+	position:fixed;
+	overflow:auto;
+	height:100%; width:35%;
+	top:0px;
+	right:0px;
+	padding:0px 10px;
+	background:#2e3237;
+	background:rgba(36,40,45,.9);
+     -moz-box-shadow: 0px 0px 4px #000; 
+  -webkit-box-shadow: 0px 0px 4px #000; 
+          box-shadow: 0px 0px 4px #000;
+    font-size:12px;
+    line-height:135%;
+    font-family:"Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+
+#roar-console-log
+{
+	background:#333;
+}
+
+#roar-console pre
+{
+	font-family: monospace;
+	margin:0px;
+	color:#aaa;
+	color:#97a3ab;
+	font-size:11px;
+}
+
+.roar-console-api
+{
+	font-family: monospace;
+	color:#bbb;
+	font-size:10px;
+}
+
+.roar-console-apibold { font-size:12px; font-weight:bold; color:#fff; }
